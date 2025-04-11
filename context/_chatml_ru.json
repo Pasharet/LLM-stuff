@@ -1,0 +1,12 @@
+{
+    "story_string": "<|im_start|>system\n{{#if system}}# System Prompt\n{{system}}\n{{/if}}{{#if wiBefore}}# Описание мира и его особенностей\n{{wiBefore}}\n{{/if}}{{#if description}}# Описание персонажей\n{{description}}\n{{/if}}{{#if personality}}{{personality}}\n{{/if}}{{#if scenario}}{{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}# Описание пользователя\n{{persona}}\n{{/if}}{{trim}}<|im_end|>",
+    "example_separator": "# Пример диалога (это не часть истории)",
+    "chat_start": "# Начало RP",
+    "use_stop_strings": false,
+    "allow_jailbreak": false,
+    "names_as_stop_strings": true,
+    "always_force_name2": true,
+    "trim_sentences": false,
+    "single_line": false,
+    "name": "_chatml_ru"
+}
